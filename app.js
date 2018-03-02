@@ -28,7 +28,7 @@ d3.select("#delete-notes")
       d3.event.preventDefault();
       d3.selectAll("#notes")
         .style("font-size", function(){
-          return Math.random()*10 + "px";
+          return Math.random()*100 + "px";
         });
     });
 

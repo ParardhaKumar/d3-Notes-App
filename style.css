@@ -23,7 +23,9 @@ h1 {
   background-color: #b8ffba;
   border: 8px solid #4caf50;
   box-sizing: border-box;
-  width: 100%;
+  margin: 0 auto;
+  width: 75%;
+  margin-bottom: 2%;
 }
 
 .hide{
