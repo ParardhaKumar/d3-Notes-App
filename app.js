@@ -7,6 +7,10 @@ d3.select("#new-note")
           .classed('note', true)
           .text(input.property('value'));
       input.property('value', '');
+
+      d3.select(".preview")
+        .text("")
+        .classed("hide", true);
     });
 
 d3.select("#delete-notes")
